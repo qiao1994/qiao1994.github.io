@@ -3,7 +3,35 @@
         <title>所有文章 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/posts/</link>
         <description>所有文章 | 满地可的笔记本</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Aug 2019 22:20:20 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 26 Apr 2022 21:08:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>系统设计总结</title>
+    <link>https://qiao1994.github.io/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Tue, 26 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[项目 数据库 关键问题 数据分片 Cache 1.概述 2.TinyURL NoSQL l Hash方式选择，考虑容量、数量l 离线预生产Key l 按首字母：数据不均匀l 按hash分：√ l 淘汰策]]></description>
+</item><item>
+    <title>贪心&amp;回溯&amp;动态规划总结</title>
+    <link>https://qiao1994.github.io/%E8%B4%AA%E5%BF%83%E5%9B%9E%E6%BA%AF%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Mon, 25 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E8%B4%AA%E5%BF%83%E5%9B%9E%E6%BA%AF%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[优先贪心（一般复杂度比较低） 局部最后可以推出全局最优，且无反例 组合、子集、排列求具体数据用回溯 求最值/可行性/方案数用DP（尤其是数据不可排]]></description>
+</item><item>
+    <title>回溯总结</title>
+    <link>https://qiao1994.github.io/%E5%9B%9E%E6%BA%AF%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Sun, 24 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%9B%9E%E6%BA%AF%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[回溯主要用来解决组合、子集与排列问题，这里给出各类目的典型题与对比表格。 其中path表示递归过程中已走过的路径，即树枝 组合 给定两个整数 n 和 k]]></description>
+</item><item>
+    <title>动态规划总结</title>
+    <link>https://qiao1994.github.io/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Sat, 23 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[疫情导致哪都去不了，所以婚假也只能学学习啦 背包问题 类型 维度 物品/容量遍历顺序(内外) 原因 容量遍历顺序(左右) 原因 01 二维 任意 内层左到右 01 一维 外]]></description>
+</item><item>
     <title>《佛系：如何成为一个快乐的人》读书笔记</title>
     <link>https://qiao1994.github.io/%E4%BD%9B%E7%B3%BB%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Mon, 12 Aug 2019 22:20:20 &#43;0000</pubDate>
@@ -45,33 +73,5 @@
     <author>作者</author>
     <guid>https://qiao1994.github.io/mysql_join%E5%A4%87%E5%BF%98/</guid>
     <description><![CDATA[join本质上是用驱动表的每个记录去一一匹配被驱动表（会包含重复记录），然后根据条件做优化。 关键点 尽量把条件放到ON后，这里的条件可以用在初]]></description>
-</item><item>
-    <title>合并多个链表</title>
-    <link>https://qiao1994.github.io/10-merge-k-sorted-lists/</link>
-    <pubDate>Thu, 04 Jul 2019 20:28:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/10-merge-k-sorted-lists/</guid>
-    <description><![CDATA[思路 把所有链表的头节点，建立一个最小堆，逐个从堆中拿下最小的节点，并用链表的后续节点补充 分治，分别两两合并 问题 分治和遍历的差别是：每次分治处]]></description>
-</item><item>
-    <title>判断链表是否有环</title>
-    <link>https://qiao1994.github.io/9-linked-list-cycle/</link>
-    <pubDate>Thu, 04 Jul 2019 19:13:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/9-linked-list-cycle/</guid>
-    <description><![CDATA[思路 使用快慢两个指针，如果两个指针相遇，则链表有环；如果快指针先走到链表尾，则链表无环 问题 判等操作应该在指针迁移一次后再做，否则所有都会被判]]></description>
-</item><item>
-    <title>寻找第一个缺失的正数</title>
-    <link>https://qiao1994.github.io/8-first-missing-positive/</link>
-    <pubDate>Wed, 03 Jul 2019 21:35:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/8-first-missing-positive/</guid>
-    <description><![CDATA[思路 思路一：排序，然而不能满足空间复杂度的要求 思路二：把每个位置的有效num，与num-1位置的元素交换，然后遍历处理后的数组，第一个元素值]]></description>
-</item><item>
-    <title>求大多数</title>
-    <link>https://qiao1994.github.io/7-majority-element/</link>
-    <pubDate>Wed, 03 Jul 2019 20:29:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/7-majority-element/</guid>
-    <description><![CDATA[思路 思路一：使用一个hash表，统计每个元素出现的次数 思路二：用一个变量result暂存当前的数字，遇到一个数字如果是result，就给co]]></description>
 </item></channel>
 </rss>

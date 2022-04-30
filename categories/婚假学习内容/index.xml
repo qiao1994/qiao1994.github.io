@@ -1,0 +1,35 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>婚假学习内容 - 分类 - 满地可的笔记本</title>
+        <link>https://qiao1994.github.io/categories/%E5%A9%9A%E5%81%87%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/</link>
+        <description>婚假学习内容 - 分类 - 满地可的笔记本</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 26 Apr 2022 21:08:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/categories/%E5%A9%9A%E5%81%87%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/" rel="self" type="application/rss+xml" /><item>
+    <title>系统设计总结</title>
+    <link>https://qiao1994.github.io/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Tue, 26 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[项目 数据库 关键问题 数据分片 Cache 1.概述 2.TinyURL NoSQL l Hash方式选择，考虑容量、数量l 离线预生产Key l 按首字母：数据不均匀l 按hash分：√ l 淘汰策]]></description>
+</item><item>
+    <title>贪心&amp;回溯&amp;动态规划总结</title>
+    <link>https://qiao1994.github.io/%E8%B4%AA%E5%BF%83%E5%9B%9E%E6%BA%AF%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Mon, 25 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E8%B4%AA%E5%BF%83%E5%9B%9E%E6%BA%AF%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[优先贪心（一般复杂度比较低） 局部最后可以推出全局最优，且无反例 组合、子集、排列求具体数据用回溯 求最值/可行性/方案数用DP（尤其是数据不可排]]></description>
+</item><item>
+    <title>回溯总结</title>
+    <link>https://qiao1994.github.io/%E5%9B%9E%E6%BA%AF%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Sun, 24 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%9B%9E%E6%BA%AF%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[回溯主要用来解决组合、子集与排列问题，这里给出各类目的典型题与对比表格。 其中path表示递归过程中已走过的路径，即树枝 组合 给定两个整数 n 和 k]]></description>
+</item><item>
+    <title>动态规划总结</title>
+    <link>https://qiao1994.github.io/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Sat, 23 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[疫情导致哪都去不了，所以婚假也只能学学习啦 背包问题 类型 维度 物品/容量遍历顺序(内外) 原因 容量遍历顺序(左右) 原因 01 二维 任意 内层左到右 01 一维 外]]></description>
+</item></channel>
+</rss>

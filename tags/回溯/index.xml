@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>回溯 - 标签 - 满地可的笔记本</title>
+        <link>https://qiao1994.github.io/tags/%E5%9B%9E%E6%BA%AF/</link>
+        <description>回溯 - 标签 - 满地可的笔记本</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 25 Apr 2022 21:08:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/%E5%9B%9E%E6%BA%AF/" rel="self" type="application/rss+xml" /><item>
+    <title>贪心&amp;回溯&amp;动态规划总结</title>
+    <link>https://qiao1994.github.io/%E8%B4%AA%E5%BF%83%E5%9B%9E%E6%BA%AF%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Mon, 25 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E8%B4%AA%E5%BF%83%E5%9B%9E%E6%BA%AF%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[优先贪心（一般复杂度比较低） 局部最后可以推出全局最优，且无反例 组合、子集、排列求具体数据用回溯 求最值/可行性/方案数用DP（尤其是数据不可排]]></description>
+</item><item>
+    <title>回溯总结</title>
+    <link>https://qiao1994.github.io/%E5%9B%9E%E6%BA%AF%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Sun, 24 Apr 2022 21:08:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%9B%9E%E6%BA%AF%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[回溯主要用来解决组合、子集与排列问题，这里给出各类目的典型题与对比表格。 其中path表示递归过程中已走过的路径，即树枝 组合 给定两个整数 n 和 k]]></description>
+</item></channel>
+</rss>
