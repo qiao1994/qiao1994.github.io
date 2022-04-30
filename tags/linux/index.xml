@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Linux - 标签 - 满地可</title>
+        <title>Linux - 标签 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/tags/linux/</link>
-        <description>Linux - 标签 - 满地可</description>
+        <description>Linux - 标签 - 满地可的笔记本</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 22 Jun 2019 20:52:31 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
     <title>4.网络性能分析</title>
     <link>https://qiao1994.github.io/4-%E7%BD%91%E7%BB%9C/</link>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>前端 - 分类 - 满地可</title>
+        <title>前端 - 分类 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
-        <description>前端 - 分类 - 满地可</description>
+        <description>前端 - 分类 - 满地可的笔记本</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 21 Mar 2019 21:24:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/categories/%E5%89%8D%E7%AB%AF/" rel="self" type="application/rss+xml" /><item>
     <title>前端技术栈扫盲</title>
     <link>https://qiao1994.github.io/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E6%A0%88%E6%89%AB%E7%9B%B2/</link>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>MySQL学习笔记 - 分类 - 满地可</title>
+        <title>MySQL学习笔记 - 分类 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-        <description>MySQL学习笔记 - 分类 - 满地可</description>
+        <description>MySQL学习笔记 - 分类 - 满地可的笔记本</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 14 Jun 2019 15:46:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
     <title>MySQL学习总结</title>
     <link>https://qiao1994.github.io/mysql%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</link>

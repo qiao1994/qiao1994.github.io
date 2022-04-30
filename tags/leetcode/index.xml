@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>leetcode - 标签 - 满地可</title>
+        <title>leetcode - 标签 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/tags/leetcode/</link>
-        <description>leetcode - 标签 - 满地可</description>
+        <description>leetcode - 标签 - 满地可的笔记本</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 04 Jul 2019 20:28:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/leetcode/" rel="self" type="application/rss+xml" /><item>
     <title>合并多个链表</title>
     <link>https://qiao1994.github.io/10-merge-k-sorted-lists/</link>

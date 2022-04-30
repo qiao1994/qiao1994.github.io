@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>18.对索引字段做函数操作的坑 - 满地可</title><meta name="Description" content="满地可"><meta property="og:title" content="18.对索引字段做函数操作的坑" />
+        <title>18.对索引字段做函数操作的坑 - 满地可的笔记本</title><meta name="Description" content="满地可的笔记本"><meta property="og:title" content="18.对索引字段做函数操作的坑" />
 <meta property="og:description" content="当MySQL认为需要对索引字段做一点事后才能匹配时，索引会不幸的失去排序能力。 案例一：条件字段函数操作 select count(*) from tradelog where month(t_modified)=7; 这条sql语句会扫描全索引" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://qiao1994.github.io/18-%E5%AF%B9%E7%B4%A2%E5%BC%95%E5%AD%97%E6%AE%B5%E5%81%9A%E5%87%BD%E6%95%B0%E6%93%8D%E4%BD%9C%E7%9A%84%E5%9D%91/" /><meta property="og:image" content="https://qiao1994.github.io/logo.png"/><meta property="article:section" content="posts" />
@@ -17,8 +17,8 @@
 
 <meta name="twitter:title" content="18.对索引字段做函数操作的坑"/>
 <meta name="twitter:description" content="当MySQL认为需要对索引字段做一点事后才能匹配时，索引会不幸的失去排序能力。 案例一：条件字段函数操作 select count(*) from tradelog where month(t_modified)=7; 这条sql语句会扫描全索引"/>
-<meta name="application-name" content="满地可">
-<meta name="apple-mobile-web-app-title" content="满地可"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="满地可的笔记本">
+<meta name="apple-mobile-web-app-title" content="满地可的笔记本"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://qiao1994.github.io/18-%E5%AF%B9%E7%B4%A2%E5%BC%95%E5%AD%97%E6%AE%B5%E5%81%9A%E5%87%BD%E6%95%B0%E6%93%8D%E4%BD%9C%E7%9A%84%E5%9D%91/" /><link rel="prev" href="https://qiao1994.github.io/20-%E5%B9%BB%E8%AF%BB/" /><link rel="next" href="https://qiao1994.github.io/19-%E4%B8%80%E8%A1%8C%E6%9F%A5%E8%AF%A2%E4%B9%9F%E5%BE%88%E6%85%A2%E7%9A%84%E5%8F%AF%E8%83%BD%E5%8E%9F%E5%9B%A0/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
@@ -43,7 +43,7 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="满地可">满地可</a>
+            <a href="/" title="满地可的笔记本">满地可的笔记本</a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
@@ -67,7 +67,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="满地可">满地可</a>
+                <a href="/" title="满地可的笔记本">满地可的笔记本</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
