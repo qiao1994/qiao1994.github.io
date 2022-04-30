@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Laravel - 标签 - 满地可</title>
+        <link>https://qiao1994.github.io/tags/laravel/</link>
+        <description>Laravel - 标签 - 满地可</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 08 Nov 2018 13:42:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/laravel/" rel="self" type="application/rss+xml" /><item>
+    <title>Laravel备注</title>
+    <link>https://qiao1994.github.io/laravel%E5%A4%87%E6%B3%A8/</link>
+    <pubDate>Thu, 08 Nov 2018 13:42:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/laravel%E5%A4%87%E6%B3%A8/</guid>
+    <description><![CDATA[本文记录一些文档中描述可能不够清晰，但是开发过程中需要用到的内容 resource方法 1 Route::resource(&#39;users&#39;, &#39;UsersController&#39;); 上述代码将等同于：（当需要生成url时，可参考下述]]></description>
+</item><item>
+    <title>Laravel最佳实践</title>
+    <link>https://qiao1994.github.io/laravel%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
+    <pubDate>Tue, 06 Nov 2018 13:44:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/laravel%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
+    <description><![CDATA[本文记录Laravel开发过程中遇到的问题以及最佳实践方法和参考来源，不定期更新 配置书写方式 存储在 .env 和 config/app.php 文件中，然后使用 config() 函数来读取。 .env CDN_DOMAIN=cdndomain.com config/app.php]]></description>
+</item><item>
+    <title>Laravel核心架构相关概念理解</title>
+    <link>https://qiao1994.github.io/laravel%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3/</link>
+    <pubDate>Tue, 06 Nov 2018 13:28:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/laravel%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3/</guid>
+    <description><![CDATA[一次请求的基本流程 index.php 加载composer生成的自动加载配置 * 从bootstrap/app.php脚本中检索Laravel应用实例 HTTP/C]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>架构学习笔记 - 分类 - 满地可</title>
+        <link>https://qiao1994.github.io/categories/%E6%9E%B6%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <description>架构学习笔记 - 分类 - 满地可</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 Dec 2018 10:23:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/categories/%E6%9E%B6%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>21.高性能负载均衡：算法</title>
+    <link>https://qiao1994.github.io/21-%E9%AB%98%E6%80%A7%E8%83%BD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AE%97%E6%B3%95/</link>
+    <pubDate>Mon, 10 Dec 2018 10:23:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/21-%E9%AB%98%E6%80%A7%E8%83%BD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AE%97%E6%B3%95/</guid>
+    <description><![CDATA[分类 负载均衡算法大致能分为以下几类： 任务平分类 负载均衡类 性能最优类 Hash类 算法 轮询 优点 简单 缺点 无法感知到机器自身的状态和负载，只有机器宕机]]></description>
+</item><item>
+    <title>20.高性能负载均衡：分类及架构</title>
+    <link>https://qiao1994.github.io/20-%E9%AB%98%E6%80%A7%E8%83%BD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%88%86%E7%B1%BB%E5%8F%8A%E6%9E%B6%E6%9E%84/</link>
+    <pubDate>Mon, 10 Dec 2018 10:12:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/20-%E9%AB%98%E6%80%A7%E8%83%BD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%88%86%E7%B1%BB%E5%8F%8A%E6%9E%B6%E6%9E%84/</guid>
+    <description><![CDATA[负载均衡分类 DNS负载均衡 优点 简单，成本低 就近访问，提升访问速度 缺点 更新不及时 扩展性差 分配策略简单 有些公司针对业务特点实现自己的DNS系统，]]></description>
+</item><item>
+    <title>19.单服务器高性能模式：Reactor与Proactor</title>
+    <link>https://qiao1994.github.io/19-%E5%8D%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%A8%A1%E5%BC%8Freactor%E4%B8%8Eproactor/</link>
+    <pubDate>Mon, 05 Nov 2018 22:57:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/19-%E5%8D%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%A8%A1%E5%BC%8Freactor%E4%B8%8Eproactor/</guid>
+    <description><![CDATA[本节并不太理解，暂放;后续如果有机会学习nginx原理时再详细了解 Reactor 资源复用 PPC和TPC和核心问题是每个连接都要创建进程/线程，连接结束后]]></description>
+</item><item>
+    <title>18.单服务器高性能模式：PPC与TPC</title>
+    <link>https://qiao1994.github.io/18-%E5%8D%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%A8%A1%E5%BC%8Fppc%E4%B8%8Etpc/</link>
+    <pubDate>Mon, 05 Nov 2018 09:51:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/18-%E5%8D%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%A8%A1%E5%BC%8Fppc%E4%B8%8Etpc/</guid>
+    <description><![CDATA[服务器高性能的关键之一就是服务器采取的并发模型，并发模型有如下两个关键设计点： 服务器如何管理连接 服务器如何处理请求 以上两个设计点最终都和操作]]></description>
+</item><item>
+    <title>17.高性能缓存架构</title>
+    <link>https://qiao1994.github.io/17-%E9%AB%98%E6%80%A7%E8%83%BD%E7%BC%93%E5%AD%98%E6%9E%B6%E6%9E%84/</link>
+    <pubDate>Mon, 05 Nov 2018 09:35:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/17-%E9%AB%98%E6%80%A7%E8%83%BD%E7%BC%93%E5%AD%98%E6%9E%B6%E6%9E%84/</guid>
+    <description><![CDATA[某些场景下，单纯依靠存储性能的提升不能解决问题 这些场景下高性能存储也无能为力，这就需要用到缓存系统 需要经过复杂的运算后得出的数据 读多写少的数]]></description>
+</item><item>
+    <title>16.高性能NoSQL</title>
+    <link>https://qiao1994.github.io/16-%E9%AB%98%E6%80%A7%E8%83%BDnosql/</link>
+    <pubDate>Thu, 01 Nov 2018 13:36:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/16-%E9%AB%98%E6%80%A7%E8%83%BDnosql/</guid>
+    <description><![CDATA[关系型数据库的缺点 存储的是行记录，无法存储数据结构 schema扩展很不方便：修改数据库的列很麻烦 在大数据场景下I/O偏高：即使只针对某一列计]]></description>
+</item><item>
+    <title>15.高性能数据库集群：分库分表</title>
+    <link>https://qiao1994.github.io/15-%E9%AB%98%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9B%86%E7%BE%A4%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8/</link>
+    <pubDate>Thu, 01 Nov 2018 13:14:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/15-%E9%AB%98%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9B%86%E7%BE%A4%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8/</guid>
+    <description><![CDATA[业务分库 将不同业务的数据分到不同数据库中 问题 join操作 事务问题 成本问题 分表 垂直分表 常用和不常用的字段分开 问题：表操作的数量要增加 水平分表 一]]></description>
+</item><item>
+    <title>14.高性能数据库集群：读写分离</title>
+    <link>https://qiao1994.github.io/14-%E9%AB%98%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9B%86%E7%BE%A4%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/</link>
+    <pubDate>Thu, 01 Nov 2018 13:13:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/14-%E9%AB%98%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9B%86%E7%BE%A4%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/</guid>
+    <description><![CDATA[读写分离原理 主从架构，主机读写，从机读取，主机通过复制将数据同步到从机。 复制延迟的解决方案 写操作后的读操作发送给主机：耦合代码 读从机失败后再]]></description>
+</item><item>
+    <title>10.11.12.13.架构设计流程：识别复杂度、设计备选方案、评估和选择备选方案、详细方案设计</title>
+    <link>https://qiao1994.github.io/10-11-12-13-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%B5%81%E7%A8%8B%E8%AF%86%E5%88%AB%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%BE%E8%AE%A1%E5%A4%87%E9%80%89%E6%96%B9%E6%A1%88%E8%AF%84%E4%BC%B0%E5%92%8C%E9%80%89%E6%8B%A9%E5%A4%87%E9%80%89%E6%96%B9%E6%A1%88%E8%AF%A6%E7%BB%86%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1/</link>
+    <pubDate>Thu, 01 Nov 2018 13:11:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/10-11-12-13-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%B5%81%E7%A8%8B%E8%AF%86%E5%88%AB%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%BE%E8%AE%A1%E5%A4%87%E9%80%89%E6%96%B9%E6%A1%88%E8%AF%84%E4%BC%B0%E5%92%8C%E9%80%89%E6%8B%A9%E5%A4%87%E9%80%89%E6%96%B9%E6%A1%88%E8%AF%A6%E7%BB%86%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1/</guid>
+    <description><![CDATA[识别复杂度 复杂度主要来源于高性能、高可用、扩扩展几个方面，但是大多数场景下，系统只需要其中一个特性。 所以识别业务的复杂度，针对性的解决问题很]]></description>
+</item><item>
+    <title>8.9.架构设计三原则</title>
+    <link>https://qiao1994.github.io/8-9-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E4%B8%89%E5%8E%9F%E5%88%99/</link>
+    <pubDate>Thu, 01 Nov 2018 13:10:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/8-9-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E4%B8%89%E5%8E%9F%E5%88%99/</guid>
+    <description><![CDATA[合适原则 根据业务场景选择最合适的，不要追求无必要的东西，也不要从头到尾一把梭 简单原则 在满足需求的前提下保持简单，降低结构复杂性和逻辑复杂性 演]]></description>
+</item></channel>
+</rss>

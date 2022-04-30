@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Nginx - 标签 - 满地可</title>
+        <link>https://qiao1994.github.io/tags/nginx/</link>
+        <description>Nginx - 标签 - 满地可</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 20 Jul 2019 13:46:20 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/nginx/" rel="self" type="application/rss+xml" /><item>
+    <title>Nginx学习笔记</title>
+    <link>https://qiao1994.github.io/nginx/</link>
+    <pubDate>Sat, 20 Jul 2019 13:46:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/nginx/</guid>
+    <description><![CDATA[基本组成 nginx由内核和模块组成,模块分为handler、filter、proxy类模块 进程模型 nginx默认是多进程方式，一个maste]]></description>
+</item></channel>
+</rss>

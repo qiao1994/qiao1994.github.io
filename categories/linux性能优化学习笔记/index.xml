@@ -1,0 +1,35 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Linux性能优化学习笔记 - 分类 - 满地可</title>
+        <link>https://qiao1994.github.io/categories/linux%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <description>Linux性能优化学习笔记 - 分类 - 满地可</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 22 Jun 2019 20:52:31 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/categories/linux%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>4.网络性能分析</title>
+    <link>https://qiao1994.github.io/4-%E7%BD%91%E7%BB%9C/</link>
+    <pubDate>Sat, 22 Jun 2019 20:52:31 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/4-%E7%BD%91%E7%BB%9C/</guid>
+    <description><![CDATA[网络协议栈 性能指标 带宽 吞吐量 延时 PPS 各层性能 转发性能 TCP/UDP性能 HTTP性能 应用负载性能 工具字典]]></description>
+</item><item>
+    <title>3.I/O性能分析</title>
+    <link>https://qiao1994.github.io/3-io/</link>
+    <pubDate>Sat, 22 Jun 2019 20:43:31 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/3-io/</guid>
+    <description><![CDATA[I/O栈 性能指标 文件系统I/O性能指标 存储空间使用情况 容量 使用量 剩余量 索引节点使用情况 容量 使用量 剩余量 缓存使用情况 页缓存 目录项缓存 索引节点缓]]></description>
+</item><item>
+    <title>2.内存性能分析</title>
+    <link>https://qiao1994.github.io/2-%E5%86%85%E5%AD%98/</link>
+    <pubDate>Sat, 22 Jun 2019 20:30:31 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/2-%E5%86%85%E5%AD%98/</guid>
+    <description><![CDATA[性能指标 系统内存使用情况 已用内存 共享内存 可用内存 进程内存使用情况 虚拟内存 包括进程代码段、数据段、共享内存、已经申请的堆内存和已经换出的内存等]]></description>
+</item><item>
+    <title>1.CPU性能分析</title>
+    <link>https://qiao1994.github.io/1-cpu/</link>
+    <pubDate>Sat, 22 Jun 2019 20:14:31 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/1-cpu/</guid>
+    <description><![CDATA[性能指标 CPU使用率：非空闲时间占总 CPU 时间的百分比 用户CPU使用率 系统CPU使用率 等待I/O的CPU使用率 软/硬中断CPU使用率 虚拟机CPU]]></description>
+</item></channel>
+</rss>

@@ -1,9 +1,79 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>乔茂爽</title>
+        <title>满地可</title>
         <link>https://qiao1994.github.io/</link>
-        <description>关于 LoveIt 主题</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+        <description>满地可</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Aug 2019 22:20:20 &#43;0000</lastBuildDate>
             <atom:link href="https://qiao1994.github.io/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>《佛系：如何成为一个快乐的人》读书笔记</title>
+    <link>https://qiao1994.github.io/%E4%BD%9B%E7%B3%BB%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Mon, 12 Aug 2019 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E4%BD%9B%E7%B3%BB%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[第一章：佛系烦恼 &mdash;- 反应之前先理解 心烦意乱的真正原因是没有清楚的意识到烦恼的存在，理解烦恼的存在，是解决烦恼的第一步。 烦恼从哪来？ 烦恼的原因是]]></description>
+</item><item>
+    <title>Redis抱佛脚</title>
+    <link>https://qiao1994.github.io/redis%E6%8A%B1%E4%BD%9B%E8%84%9A/</link>
+    <pubDate>Tue, 23 Jul 2019 23:28:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/redis%E6%8A%B1%E4%BD%9B%E8%84%9A/</guid>
+    <description><![CDATA[特点 性能、并发 问题 需要使用物理内存，不支持海量数据 缓存何数据库双写一致性问题 要求强一致性的问题不用缓存 缓存穿透 互斥锁 异步更新 拦截 缓存雪崩 预热]]></description>
+</item><item>
+    <title>Web安全备忘</title>
+    <link>https://qiao1994.github.io/web%E5%AE%89%E5%85%A8%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Sat, 20 Jul 2019 23:26:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/web%E5%AE%89%E5%85%A8%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[SQL注入 永远不要使用超级用户或所有者帐号去连接数据库，要用权限被严格限制的帐号 检查输入的数据是否具有所期望的数据格式 is_numeric() 、 ctype_dig]]></description>
+</item><item>
+    <title>计算机网络学习笔记</title>
+    <link>https://qiao1994.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Sat, 20 Jul 2019 20:37:37 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[TCP/IP协议族 应用层(HTTP/FTP) 传输层(TCP/UDP) 网络层(IP) 网络接口层(把0、1序列划分为数据帧从一个节点传输到临近的]]></description>
+</item><item>
+    <title>Nginx学习笔记</title>
+    <link>https://qiao1994.github.io/nginx/</link>
+    <pubDate>Sat, 20 Jul 2019 13:46:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/nginx/</guid>
+    <description><![CDATA[基本组成 nginx由内核和模块组成,模块分为handler、filter、proxy类模块 进程模型 nginx默认是多进程方式，一个maste]]></description>
+</item><item>
+    <title>MySQL join操作备忘</title>
+    <link>https://qiao1994.github.io/mysql_join%E5%A4%87%E5%BF%98/</link>
+    <pubDate>Sun, 14 Jul 2019 13:30:30 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/mysql_join%E5%A4%87%E5%BF%98/</guid>
+    <description><![CDATA[join本质上是用驱动表的每个记录去一一匹配被驱动表（会包含重复记录），然后根据条件做优化。 关键点 尽量把条件放到ON后，这里的条件可以用在初]]></description>
+</item><item>
+    <title>合并多个链表</title>
+    <link>https://qiao1994.github.io/10-merge-k-sorted-lists/</link>
+    <pubDate>Thu, 04 Jul 2019 20:28:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/10-merge-k-sorted-lists/</guid>
+    <description><![CDATA[思路 把所有链表的头节点，建立一个最小堆，逐个从堆中拿下最小的节点，并用链表的后续节点补充 分治，分别两两合并 问题 分治和遍历的差别是：每次分治处]]></description>
+</item><item>
+    <title>判断链表是否有环</title>
+    <link>https://qiao1994.github.io/9-linked-list-cycle/</link>
+    <pubDate>Thu, 04 Jul 2019 19:13:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/9-linked-list-cycle/</guid>
+    <description><![CDATA[思路 使用快慢两个指针，如果两个指针相遇，则链表有环；如果快指针先走到链表尾，则链表无环 问题 判等操作应该在指针迁移一次后再做，否则所有都会被判]]></description>
+</item><item>
+    <title>寻找第一个缺失的正数</title>
+    <link>https://qiao1994.github.io/8-first-missing-positive/</link>
+    <pubDate>Wed, 03 Jul 2019 21:35:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/8-first-missing-positive/</guid>
+    <description><![CDATA[思路 思路一：排序，然而不能满足空间复杂度的要求 思路二：把每个位置的有效num，与num-1位置的元素交换，然后遍历处理后的数组，第一个元素值]]></description>
+</item><item>
+    <title>求大多数</title>
+    <link>https://qiao1994.github.io/7-majority-element/</link>
+    <pubDate>Wed, 03 Jul 2019 20:29:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/7-majority-element/</guid>
+    <description><![CDATA[思路 思路一：使用一个hash表，统计每个元素出现的次数 思路二：用一个变量result暂存当前的数字，遇到一个数字如果是result，就给co]]></description>
+</item></channel>
 </rss>

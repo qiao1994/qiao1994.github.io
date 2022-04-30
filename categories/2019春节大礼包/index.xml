@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>2019春节大礼包 - 分类 - 满地可</title>
+        <link>https://qiao1994.github.io/categories/2019%E6%98%A5%E8%8A%82%E5%A4%A7%E7%A4%BC%E5%8C%85/</link>
+        <description>2019春节大礼包 - 分类 - 满地可</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 21 Mar 2019 21:30:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/categories/2019%E6%98%A5%E8%8A%82%E5%A4%A7%E7%A4%BC%E5%8C%85/" rel="self" type="application/rss+xml" /><item>
+    <title>go语言基本用法</title>
+    <link>https://qiao1994.github.io/go%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
+    <pubDate>Thu, 21 Mar 2019 21:30:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/go%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
+    <description><![CDATA[本文为2019春节期间用golang刷LeetCode时遇到的基础使用方式，备注一下，后续可直接复制取用。 array 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]]></description>
+</item><item>
+    <title>LeetCode : triangle</title>
+    <link>https://qiao1994.github.io/leetcode-triangle/</link>
+    <pubDate>Thu, 07 Feb 2019 21:28:31 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-triangle/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 package main import &#34;fmt&#34; func main() { fmt.Println(minimumTotal([][]int{ {2}, {3,4}, {6,5,7}, {4,1,8,3}, })) } func minimumTotal(triangle [][]int) int { max := len(triangle) - 1 result := triangle for i:=max; i&gt;=0; i-- { for j:=0; j&lt;=max; j++ { //init]]></description>
+</item><item>
+    <title>LeetCode : fibonacci-number</title>
+    <link>https://qiao1994.github.io/leetcode-fibonacci-number/</link>
+    <pubDate>Thu, 07 Feb 2019 14:07:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-fibonacci-number/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 package main import &#34;fmt&#34; var memory []int func main() { memory = make([]int, 4) fmt.Println(fibonacci3(3)) } //递归计算(会有很]]></description>
+</item><item>
+    <title>LeetCode : climbing-stairs</title>
+    <link>https://qiao1994.github.io/leetcode-climbing-stairs/</link>
+    <pubDate>Thu, 07 Feb 2019 14:04:43 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-climbing-stairs/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 package main import &#34;fmt&#34; func main() { fmt.Println(climbStairs(3)) } func climbStairs(n int) int { memory := make([]int, n+1) memory[0] = 1 memory[1] = 1 for i:=2; i&lt;=n; i++ { memory[i] = memory[i-1] + memory[i-2] //这里可以优化,memory不需要n的]]></description>
+</item><item>
+    <title>LeetCode : counting-bits</title>
+    <link>https://qiao1994.github.io/leetcode-counting-bits/</link>
+    <pubDate>Thu, 07 Feb 2019 11:17:09 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-counting-bits/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 package main import &#34;fmt&#34; func main() { fmt.Println(countBits(10)) } func countBits(num int) []int { result := make([]int, num+1) for i:=1; i&lt;=num; i++ { result[i] = result[i&amp;(i-1)] + 1 } return result }]]></description>
+</item><item>
+    <title>LeetCode : power-of-two</title>
+    <link>https://qiao1994.github.io/leetcode-power-of-two/</link>
+    <pubDate>Thu, 07 Feb 2019 11:07:11 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-power-of-two/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 package main import &#34;fmt&#34; func main() { fmt.Println(isPowerOfTwo(10)) } func isPowerOfTwo(n int) bool { return n!= 0 &amp;&amp; n &amp; (n-1) == 0 }]]></description>
+</item><item>
+    <title>LeetCode : number-of-1-bits</title>
+    <link>https://qiao1994.github.io/leetcode-number-of-1-bits/</link>
+    <pubDate>Thu, 07 Feb 2019 11:01:16 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-number-of-1-bits/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 package main import &#34;fmt&#34; func main() { fmt.Println(hammingWeight(10)) } func hammingWeight(num uint32) int { if (num == 0) { return 0 } count := 0 for num &amp; (num-1) != 0 { count++ num = num &amp; (num - 1) } count++ return count }]]></description>
+</item><item>
+    <title>LeetCode : word-search-ii-1</title>
+    <link>https://qiao1994.github.io/leetcode-word-search-ii-1/</link>
+    <pubDate>Wed, 06 Feb 2019 21:37:07 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-word-search-ii-1/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70]]></description>
+</item><item>
+    <title>LeetCode : generate-parentheses</title>
+    <link>https://qiao1994.github.io/leetcode-generate-parentheses/</link>
+    <pubDate>Wed, 06 Feb 2019 20:20:57 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-generate-parentheses/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 package main import &#34;fmt&#34; func main() { fmt.Println(generateParenthesis(2)) } var list []string func generateParenthesis(n int) []string { list = []string{} gen(0, 0, n, &#34;&#34;) return list } func gen(left, right,n int, result string) { if (left == n) &amp;&amp; (right == n) {]]></description>
+</item><item>
+    <title>LeetCode : implement-trie-prefix-tree</title>
+    <link>https://qiao1994.github.io/leetcode-implement-trie-prefix-tree/</link>
+    <pubDate>Wed, 06 Feb 2019 16:04:01 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/leetcode-implement-trie-prefix-tree/</guid>
+    <description><![CDATA[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 package main]]></description>
+</item></channel>
+</rss>
