@@ -6,7 +6,7 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>系统设计总结 - 满地可的笔记本</title><meta name="Description" content="满地可的笔记本"><meta property="og:title" content="系统设计总结" />
-<meta property="og:description" content="项目 数据库 关键问题 数据分片 Cache 1.概述 2.TinyURL NoSQL l Hash方式选择，考虑容量、数量l 离线预生产Key l 按首字母：数据不均匀l 按hash分：√ l 淘汰策" />
+<meta property="og:description" content="项目 数据库 关键问题 数据分片 Cache 1.概述 2.TinyURL NoSQL Hash方式选择，考虑容量、数量 离线预生产Key 按首字母：数据不均匀 按hash分：ok 淘汰策略：LR" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://qiao1994.github.io/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93/" /><meta property="og:image" content="https://qiao1994.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-04-26T21:08:00+00:00" />
@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="https://qiao1994.github.io/logo.png"/>
 
 <meta name="twitter:title" content="系统设计总结"/>
-<meta name="twitter:description" content="项目 数据库 关键问题 数据分片 Cache 1.概述 2.TinyURL NoSQL l Hash方式选择，考虑容量、数量l 离线预生产Key l 按首字母：数据不均匀l 按hash分：√ l 淘汰策"/>
+<meta name="twitter:description" content="项目 数据库 关键问题 数据分片 Cache 1.概述 2.TinyURL NoSQL Hash方式选择，考虑容量、数量 离线预生产Key 按首字母：数据不均匀 按hash分：ok 淘汰策略：LR"/>
 <meta name="application-name" content="满地可的笔记本">
 <meta name="apple-mobile-web-app-title" content="满地可的笔记本"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/qiao1994.github.io\/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93\/"
-        },"image": ["https:\/\/qiao1994.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "系统设计","wordcount":  838 ,
+        },"image": ["https:\/\/qiao1994.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "系统设计","wordcount":  796 ,
         "url": "https:\/\/qiao1994.github.io\/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93\/","datePublished": "2022-04-26T21:08:00+00:00","dateModified": "2022-04-26T21:08:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "qiaomaoshuang","logo": "https:\/\/qiao1994.github.io\/avatar.png"},"author": {
@@ -106,7 +106,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">系统设计总结</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%A9%9A%E5%81%87%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/"><i class="far fa-folder fa-fw"></i>婚假学习内容</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-04-26">2022-04-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 838 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-04-26">2022-04-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 796 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -135,50 +135,50 @@
 <tr>
 <td>2.TinyURL</td>
 <td>NoSQL</td>
-<td>l Hash方式选择，考虑容量、数量l 离线预生产Key</td>
-<td>l 按首字母：数据不均匀l 按hash分：√</td>
-<td>l 淘汰策略：LRU</td>
+<td>Hash方式选择，考虑容量、数量<br />离线预生产Key</td>
+<td>按首字母：数据不均匀<br />按hash分：ok</td>
+<td>淘汰策略：LRU</td>
 </tr>
 <tr>
 <td>3.Pastebin</td>
-<td>l MySQL or NoSQ(元信息)l 对象存储(数据)</td>
-<td>l 离线预生产Key</td>
+<td>MySQL or NoSQ(元信息)<br />对象存储(数据)</td>
+<td>离线预生产Key</td>
 <td>同上</td>
 <td>同上</td>
 </tr>
 <tr>
 <td>4.Instagram</td>
-<td>l 对象存储or HDFS(数据)l NoSQL(PhotoID=&gt;metadata)l wide-column datastore (relationship[user with phots and user follow])</td>
+<td>对象存储or HDFS(数据)<br />NoSQL(PhotoID=&gt;metadata)<br /> wide-column datastore (relationship[user with phots and user follow])</td>
 <td>推(粉丝多的人)拉(粉丝少的人)结合</td>
-<td>l UserID：不均匀l PhoteId:√可以离线预生成PhotoID</td>
-<td>l CDNl LRUl 80-20原则</td>
+<td>UserID：不均匀<br />PhoteId:ok 可以离线预生成PhotoID</td>
+<td>CDN<br />LRU<br />80-20原则</td>
 </tr>
 <tr>
 <td>5.Dropbox</td>
-<td>l MySQL(ACID)</td>
-<td>l 数据分片：备份成本与同步速度l 保持长连接：long pollingl 同步数据时需要用消息队列来削峰l 数据去重：实时去重 or 异步去重</td>
-<td>l 垂直分区（用户信息与文件信息分开）：一致性、扩展性l 按首字母：数据不均匀l 按Hash分：√</td>
-<td>l Memcachedl LRU</td>
+<td>MySQL(ACID)</td>
+<td>数据分片：备份成本与同步速度<br /> 保持长连接：long polling<br />同步数据时需要用消息队列来削峰<br />数据去重：实时去重 or 异步去重</td>
+<td>垂直分区（用户信息与文件信息分开）：一致性、扩展性l<br />按首字母：数据不均匀<br />按Hash分：ok</td>
+<td>Memcached<br />LRU</td>
 </tr>
 <tr>
 <td>6.Facebook Messenger</td>
 <td>HBase：column-oriented key-value NoSQL</td>
-<td>l Pull or Push？Push每个client都需要和server建立长链接（long polling or webscokets）l 在线状态可以按需取用，不一定需要实时更新</td>
-<td>l UserID：okl MessageID：获取一串信息将非常慢</td>
+<td>Pull or Push？Push每个client都需要和server建立长链接（long polling or webscokets）<br /> 在线状态可以按需取用，不一定需要实时更新</td>
+<td>UserID：ok<br />MessageID：获取一串信息将非常慢</td>
 <td></td>
 </tr>
 <tr>
 <td>7.Twitter</td>
 <td>同Instagram</td>
 <td></td>
-<td>l UserID：热门用户导致数据不均匀l TwitterId：查询一个用户的一串信息时，非常慢l 按时间：读很友好，但是写基本都是写到最近的服务器，不均匀l 按时间+TwitterId：把twitterId设计成时间+序号的方式</td>
+<td>UserID：热门用户导致数据不均匀<br />TwitterId：查询一个用户的一串信息时，非常慢<br />按时间：读很友好，但是写基本都是写到最近的服务器，不均匀<br />按时间+TwitterId：把twitterId设计成时间+序号的方式</td>
 <td></td>
 </tr>
 <tr>
 <td>8.Youtube or Netflix</td>
-<td>l MySQL：metadatal HDFS：videol BigTable：trumbnails</td>
-<td>l 读写分离l 视频去重可以分块去</td>
-<td>l UserID：热门用户导致数据不均匀l VideoId：查询视频时需扫描所有服务器，然后做merge；加cache缓解</td>
+<td>MySQL：metadata<br />HDFS：video<br />BigTable：trumbnails</td>
+<td>读写分离<br />视频去重可以分块去</td>
+<td>UserID：热门用户导致数据不均匀<br />VideoId：查询视频时需扫描所有服务器，然后做merge；加cache缓解</td>
 <td></td>
 </tr>
 <tr>
@@ -191,7 +191,7 @@
 <tr>
 <td>10.API Rate Limiter</td>
 <td></td>
-<td>l 固定窗口(hash[userid][ip][x秒] =&gt; count)l 滑动窗口(hash[userid][ip][1/60单位] =&gt; count)</td>
+<td>固定窗口(<code>hash[userid][ip][x秒] =&gt; count</code>)<br />滑动窗口(<code>hash[userid][ip][1/60单位] =&gt; count</code>)</td>
 <td></td>
 <td></td>
 </tr>
