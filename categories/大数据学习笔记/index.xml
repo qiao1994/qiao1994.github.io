@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>大数据学习笔记 - 分类 - 满地可的笔记本</title>
+        <link>https://qiao1994.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <description>大数据学习笔记 - 分类 - 满地可的笔记本</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Mar 2020 22:20:20 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>Hadoop生态</title>
+    <link>https://qiao1994.github.io/hadoop%E7%94%9F%E6%80%81/</link>
+    <pubDate>Wed, 18 Mar 2020 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/hadoop%E7%94%9F%E6%80%81/</guid>
+    <description><![CDATA[Hadoop 主要是由三部分组成，除了前面我讲过的分布式文件系统 HDFS、分布式计算框架 MapReduce，还有一个是分布式集群资源调度框架 Yarn RAID与]]></description>
+</item></channel>
+</rss>
