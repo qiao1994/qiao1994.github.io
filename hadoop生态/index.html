@@ -6,7 +6,7 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>Hadoop生态 - 满地可的笔记本</title><meta name="Description" content="满地可的笔记本"><meta property="og:title" content="Hadoop生态" />
-<meta property="og:description" content="Hadoop 主要是由三部分组成，除了前面我讲过的分布式文件系统 HDFS、分布式计算框架 MapReduce，还有一个是分布式集群资源调度框架 Yarn RAID与" />
+<meta property="og:description" content="Hadoop 主要是由三部分组成，分布式文件系统 HDFS、分布式计算框架 MapReduce与分布式集群资源调度框架 Yarn RAID与HDFS：单机/分布式文件" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://qiao1994.github.io/hadoop%E7%94%9F%E6%80%81/" /><meta property="og:image" content="https://qiao1994.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-03-18T22:20:20+00:00" />
@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="https://qiao1994.github.io/logo.png"/>
 
 <meta name="twitter:title" content="Hadoop生态"/>
-<meta name="twitter:description" content="Hadoop 主要是由三部分组成，除了前面我讲过的分布式文件系统 HDFS、分布式计算框架 MapReduce，还有一个是分布式集群资源调度框架 Yarn RAID与"/>
+<meta name="twitter:description" content="Hadoop 主要是由三部分组成，分布式文件系统 HDFS、分布式计算框架 MapReduce与分布式集群资源调度框架 Yarn RAID与HDFS：单机/分布式文件"/>
 <meta name="application-name" content="满地可的笔记本">
 <meta name="apple-mobile-web-app-title" content="满地可的笔记本"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/qiao1994.github.io\/hadoop%E7%94%9F%E6%80%81\/"
-        },"image": ["https:\/\/qiao1994.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "大数据, 学习笔记","wordcount":  1547 ,
+        },"image": ["https:\/\/qiao1994.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "大数据, 学习笔记","wordcount":  1534 ,
         "url": "https:\/\/qiao1994.github.io\/hadoop%E7%94%9F%E6%80%81\/","datePublished": "2020-03-18T22:20:20+00:00","dateModified": "2020-03-18T22:20:20+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "qiaomaoshuang","logo": "https:\/\/qiao1994.github.io\/avatar.png"},"author": {
@@ -106,7 +106,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Hadoop生态</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>大数据学习笔记</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-03-18">2020-03-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1547 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-03-18">2020-03-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1534 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 4 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -131,7 +131,7 @@
     <li><a href="#yarn分布式集群资源调度框架">Yarn：分布式集群资源调度框架</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>Hadoop 主要是由三部分组成，除了前面我讲过的分布式文件系统 HDFS、分布式计算框架 MapReduce，还有一个是分布式集群资源调度框架 Yarn</p>
+            </div><div class="content" id="content"><p>Hadoop 主要是由三部分组成，分布式文件系统 HDFS、分布式计算框架 MapReduce与分布式集群资源调度框架 Yarn</p>
 <h2 id="raid与hdfs单机分布式文件系统">RAID与HDFS：单机/分布式文件系统</h2>
 <p>如果一个文件的大小超过了一张磁盘的大小，该如何存储？</p>
 <p>单机时代，主要的解决方案是 RAID；分布式时代，主要解决方案是分布式文件系统。</p>

@@ -1,7 +1,7 @@
 # Hadoop生态
 
 
-Hadoop 主要是由三部分组成，除了前面我讲过的分布式文件系统 HDFS、分布式计算框架 MapReduce，还有一个是分布式集群资源调度框架 Yarn
+Hadoop 主要是由三部分组成，分布式文件系统 HDFS、分布式计算框架 MapReduce与分布式集群资源调度框架 Yarn
 
 ## RAID与HDFS：单机/分布式文件系统
 

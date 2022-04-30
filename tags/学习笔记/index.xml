@@ -9,7 +9,7 @@
     <pubDate>Wed, 18 Mar 2020 22:20:20 &#43;0000</pubDate>
     <author>作者</author>
     <guid>https://qiao1994.github.io/hadoop%E7%94%9F%E6%80%81/</guid>
-    <description><![CDATA[Hadoop 主要是由三部分组成，除了前面我讲过的分布式文件系统 HDFS、分布式计算框架 MapReduce，还有一个是分布式集群资源调度框架 Yarn RAID与]]></description>
+    <description><![CDATA[Hadoop 主要是由三部分组成，分布式文件系统 HDFS、分布式计算框架 MapReduce与分布式集群资源调度框架 Yarn RAID与HDFS：单机/分布式文件]]></description>
 </item><item>
     <title>计算机网络学习笔记</title>
     <link>https://qiao1994.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
