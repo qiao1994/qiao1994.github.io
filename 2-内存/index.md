@@ -44,12 +44,12 @@
 
 ## 工具字典
 
-![根据指标找工具](/images/Linux/memory-1.png)
+![根据指标找工具](https://qiao1994.github.io/images/Linux/memory-1.png)
 
-![根据工具查指标](/images/Linux/memory-2.png)
+![根据工具查指标](https://qiao1994.github.io/images/Linux/memory-2.png)
 
 
 
 ## 分析思路
 
-![分析思路](/images/Linux/memory-3.png)
+![分析思路](https://qiao1994.github.io/images/Linux/memory-3.png)

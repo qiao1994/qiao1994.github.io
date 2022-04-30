@@ -108,6 +108,6 @@ InnoDB使用了B+树索引模型
 
 假设现在有联合索引（name, age），执行`select * from tuser where name like '张%' and age=10 and ismale=1;`
 
-![无索引下推执行流程](/images/MySQL/index-condition-pushdown-1.jpg)
+![无索引下推执行流程](https://qiao1994.github.io/images/MySQL/index-condition-pushdown-1.jpg)
 
-![有索引下推执行流程](/images/MySQL/index-condition-pushdown-2.jpg)
+![有索引下推执行流程](https://qiao1994.github.io/images/MySQL/index-condition-pushdown-2.jpg)

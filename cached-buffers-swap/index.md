@@ -17,7 +17,7 @@
   * disk 持久化存储数据
 
 ## 如何查看剩余内存
-![示意图](/images/Linux/memory.png)
+![示意图](https://qiao1994.github.io/images/Linux/memory.png)
 Mem, total ：物理上的内存总量
 
 Mem, used ：系统已经分配给buffers+cached的内存总量，只是已分配的，并不是已经使用了的

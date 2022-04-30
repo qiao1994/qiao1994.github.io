@@ -5,7 +5,7 @@
 
 **MySQL是“边读边发的”**
 
-![一图流](/images/MySQL/33.png)
+![一图流](https://qiao1994.github.io/images/MySQL/33.png)
 
 ## 全表扫描对innodb的影响
 

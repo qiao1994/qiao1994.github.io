@@ -2,7 +2,7 @@
 
 # 定义
 大概长这样
-![图](/images/pasted-11.png)
+![图](https://qiao1994.github.io/images/pasted-11.png)
 
 # 存储
 ## 邻接矩阵
@@ -12,11 +12,11 @@
 	* 顶点多但是边少的情况存在大量的空间浪费
 * 优势是获取两个顶点是否存在连接的效率很高`O(1)`
 
-![邻接矩阵](/images/pasted-12.png)
+![邻接矩阵](https://qiao1994.github.io/images/pasted-12.png)
 
 ## 邻接表
 邻接表是用类似哈希表的方式存储表，数组中每个节点的链表中存储这个顶点关联的顶点
-![邻接表](/images/pasted-13.png)
+![邻接表](https://qiao1994.github.io/images/pasted-13.png)
 
 # 搜索
 ## 广度优先搜索

@@ -3,7 +3,7 @@
 
 ## 网络协议栈
 
-![Linux网络协议栈](/images/Linux/net-1.png)
+![Linux网络协议栈](https://qiao1994.github.io/images/Linux/net-1.png)
 
 ## 性能指标
 
@@ -19,8 +19,8 @@
 
 ## 工具字典
 
-![根据指标找工具](/images/Linux/net-2.png)
+![根据指标找工具](https://qiao1994.github.io/images/Linux/net-2.png)
 
-![根据工具查指标](/images/Linux/net-3.png)
+![根据工具查指标](https://qiao1994.github.io/images/Linux/net-3.png)
 
 

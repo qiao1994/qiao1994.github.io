@@ -9,7 +9,7 @@
 
 系统给binlog cache分配了一片内存，每个线程一个，参数 binlog_cache_size用于控制单个线程内binlog cache所占内存的大小。如果超过了这个参数规定的大小，就要暂存到磁盘。
 
-![一图流](/images/MySQL/23.png)
+![一图流](https://qiao1994.github.io/images/MySQL/23.png)
 
 - 图中的write，指的就是指把日志写入到文件系统的page cache，并没有把数据持久化到磁盘，所以速度比较快。
 - 图中的fsync，才是将数据持久化到磁盘的操作。一般情况下，我们认为fsync才占磁盘的IOPS。
@@ -18,7 +18,7 @@ sync_binlog可以控制fsync的时机，可选的情况有：每次事务都fsyn
 
 ## redo log的写入机制
 
-![一图流](/images/MySQL/23-2.png)
+![一图流](https://qiao1994.github.io/images/MySQL/23-2.png)
 
 redo log的写入机制和binlog的写入机制类似，都是buffer->write->fsync，区别是redo log的buffer阶段是所有线程共享一段内存(因为redo log不需要保证时序)
 

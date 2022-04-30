@@ -18,7 +18,7 @@
 
 更新数据都是先读后写的，而这个读，只能读当前的值，称为“当前读”，否则就可能会丢失其他事务的修改
 
-![当前读](/images/MySQL/current-reading.png)
+![当前读](https://qiao1994.github.io/images/MySQL/current-reading.png)
 
 ## 读提交和可重复读的区别
 

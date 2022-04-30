@@ -13,15 +13,15 @@
 
 ### Yii基础
 
-![Base](/images/PHP/base.svg)
+![Base](https://qiao1994.github.io/images/PHP/base.svg)
 
 ### 依赖注入
 
-![Di](/images/PHP/di.svg)
+![Di](https://qiao1994.github.io/images/PHP/di.svg)
 
 ### 整体
 
-![All](/images/PHP/all.svg)
+![All](https://qiao1994.github.io/images/PHP/all.svg)
 
 > 图中的所有绑定、解绑、注册、注入等操作，都是在对应的属性数组中插入或删除元素。
 
@@ -33,15 +33,15 @@
 
 ### 数据模型
 
-![数据模型](/images/PHP/model.svg)
+![数据模型](https://qiao1994.github.io/images/PHP/model.svg)
 
 ### 控制器
 
-![控制器](/images/PHP/controller.svg)
+![控制器](https://qiao1994.github.io/images/PHP/controller.svg)
 
 ### 独立动作
 
-![独立动作](/images/PHP/independent-action.svg)
+![独立动作](https://qiao1994.github.io/images/PHP/independent-action.svg)
 
 
 

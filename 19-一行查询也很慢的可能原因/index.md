@@ -23,7 +23,7 @@
 
 下图这种情况，会导致`select * from t where id=1;`执行慢，因为MySQL需要执行undo log，恢复到原始的版本。
 
-![一图流](/images/MySQL/19.png)
+![一图流](https://qiao1994.github.io/images/MySQL/19.png)
 
 
 

@@ -11,4 +11,4 @@ I'm on my slow boat.
 
 I'm going to speed it up.
 
-![总结](/images/MySQL/summary.svg)
+![总结](https://qiao1994.github.io/images/MySQL/summary.svg)

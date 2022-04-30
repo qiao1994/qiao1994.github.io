@@ -14,7 +14,7 @@
 
 假设一个值从1被按顺序改成了2、3、4，在回滚日志里面就会有类似下面的记录。每次有事务需要获取历史值时，根据事务的视图，通过回滚日志即可得到历史数据。
 
-![回滚日志](https://www.qiaomaoshuang.com//images/MySQL/rollback-log.png)
+![回滚日志](https://qiao1994.github.io/images/MySQL/rollback-log.png)
 
 这里带来的一个问题就是回滚日志啥时候删除，答案是在没有事务依赖的时候删除。所以长事务是很不推荐的使用。
 

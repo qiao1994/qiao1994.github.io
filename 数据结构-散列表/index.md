@@ -30,7 +30,7 @@
 ## 链表法
 每个数组的位置都对应一个链表，插入时直接把数据附加到链表最后。这个是最简单也是最好用的办法
 
-![链表法](/images/pasted-5.png)
+![链表法](https://qiao1994.github.io/images/pasted-5.png)
 
 # 工业级的散列表
 ## 要求
@@ -70,6 +70,6 @@
 
 举例：散列表+双向链表的形式，prev和next用于指向真正链表的前序和后续；hnext用于组织散列表的拉链，这样插入、删除、查找的复杂度都降低到了`O(1)`
 
-![散列表+双向链表](/images/pasted-6.png)
+![散列表+双向链表](https://qiao1994.github.io/images/pasted-6.png)
 
 

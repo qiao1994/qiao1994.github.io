@@ -3,7 +3,7 @@
 
 ## MySQL主备架构
 
-![一图流](/images/MySQL/24.png)
+![一图流](https://qiao1994.github.io/images/MySQL/24.png)
 
 * 在备库B上通过change master命令，设置主库A的IP、端口、用户名、密码，以及要从哪个位置开始请求binlog，这个位置包含文件名和日志偏移量。
 * 在备库B上执行start slave命令，这时候备库会启动两个线程，就是图中的io_thread和sql_thread。其中io_thread负责与主库建立连接。

@@ -42,7 +42,7 @@
 
 修改表结构时，会扫描全表数据，所以我们不会贸然修改服务中的大表的结构；但是修改高频查询的小表的结构也要小心，如下图所示，sessionD以后到达的查询请求都会被阻塞。
 
-![MDL问题](/images/MySQL/mdl-error.jpg)
+![MDL问题](https://qiao1994.github.io/images/MySQL/mdl-error.jpg)
 
 ## 行锁
 

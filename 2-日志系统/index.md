@@ -37,7 +37,7 @@ redo log的文件数量和大小可以配置，当达到配置的值时，会触
 * 引擎将这行数据更新到内存中，同时写入redo log(prepare状态)；然后告知执行器执行完了，随时可以提交事务
 * 执行器把这个操作的binlog写入磁盘中
 * 执行器通知引擎，引擎把刚刚写入的redo log状态更新为commit
-![两阶段提交](https://www.qiaomaoshuang.com//images/MySQL/two-stage-commit.png)
+![两阶段提交](https://qiao1994.github.io/images/MySQL/two-stage-commit.png)
 
 ###  为什么需要两阶段提交？
 

@@ -81,16 +81,16 @@ function rk($main, $pattern) {
 
 #### 举个栗子
 如下图，其中的`c`在模式串中压根不存在，所以不可能和模式串发生匹配，如果按照前面描述的算法，还是需要每次滑动一位
-![每次滑动一位](/images/pasted-14.png)
+![每次滑动一位](https://qiao1994.github.io/images/pasted-14.png)
 
 #### 模式串中不存在坏字符的情况
 这个栗子里我们可以直接把模式串移动到`c`的后面(这里的`c`就是坏字符)
-![模式串中不存在坏字符的](/images/pasted-15.png)
+![模式串中不存在坏字符的](https://qiao1994.github.io/images/pasted-15.png)
 
 #### 模式串中存在坏字符的情况
 如果模式串中存在坏字符，那我们就不能直接把模式串滑动到坏字符后面了，需要把坏字符和模式串中坏字符的位置对齐
 当模式串中存在多个坏字符时，让坏字符和模式串中最后一个坏字符的位置对齐(避免错过匹配)
-![模式串中存在坏字符](/images/pasted-16.png)
+![模式串中存在坏字符](https://qiao1994.github.io/images/pasted-16.png)
 
 #### 坏字符的问题
 当主串是`aaaaaaaaaaaaaaa`，模式串是`baaa`时，坏字符将是`a`，因为模式串中的`a`都在`b`的后面，所以无法计算移动距离
@@ -103,15 +103,15 @@ function rk($main, $pattern) {
 
 #### 举个栗子
 * 好后缀在模式串中如果存在除了后缀以外的匹配，将两者对齐
-![好后缀规则1](/images/pasted-17.png)
+![好后缀规则1](https://qiao1994.github.io/images/pasted-17.png)
 * 当好后缀的后缀子串和模式串的前缀子串有重合时，将两者对齐
-![好后缀规则2](/images/pasted-18.png)
+![好后缀规则2](https://qiao1994.github.io/images/pasted-18.png)
 
 #### 实现tips
 好后缀规则计算最复杂的部分就是在模式串中寻找`好后缀的匹配`和`好后缀的后缀子串和模式串的前缀子串的匹配`，对于此，我们初始化两个数组
 * 用`suffix`数组存储`k`长度的后缀，在模式串中对应匹配的起始下标
 * 用`prefix`来记录模式串的后缀子串是否能匹配模式串的前缀子串
-![suffix和prefix数组](/images/pasted-19.png)
+![suffix和prefix数组](https://qiao1994.github.io/images/pasted-19.png)
 
 ### 何时使用哪个规则
 我们分别计算两种规则的移动距离，选择其中最大的作为最终移动规则
@@ -229,14 +229,14 @@ function generateSuffixAndPrefix($pattern, &$suffix, &$prefix) {
 ### 举个栗子
 当遇到坏字符时，把模式串往后移，移多少取决于好前缀的后缀子串和模式串的前缀子串的最长匹配位置。
 
-![好前缀和坏字符](/images/pasted-20.png)
+![好前缀和坏字符](https://qiao1994.github.io/images/pasted-20.png)
 
-![移动方式](/images/pasted-21.png)
+![移动方式](https://qiao1994.github.io/images/pasted-21.png)
 
 ### 实现tips
 此时核心诉求就变成了，对于模式串的每一个长度的`前缀子串的后缀子串`，寻找对应的`模式串的前缀子串`。
 因为这个寻找与主串无关，根据模式串就可以实现，所以只需要根据模式串初始化好这个数组就可以(预处理这里用动态规划)
-![next数组](/images/pasted-22.png)
+![next数组](https://qiao1994.github.io/images/pasted-22.png)
 
 
 >这里真正难搞的是实现tips里的suffix、prefix和next数组，这些内容我也是勉强理解，等后面再回头看搞懂的时再回来补上
@@ -245,7 +245,7 @@ function generateSuffixAndPrefix($pattern, &$suffix, &$prefix) {
 ## Trie树
 ### 定义
 给个图，一看就懂噻
-![Trie树](/images/pasted-23.png)
+![Trie树](https://qiao1994.github.io/images/pasted-23.png)
 
 ### Trie树很耗内存吗
 如果用数组存储指针，那每个节点都需要存储完整的字符集，这种情况会比较消耗内存；但是如果牺牲一点性能，用散列表等结构存储，会有很大改善。

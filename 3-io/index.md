@@ -2,7 +2,7 @@
 
 
 ## I/O栈
-![I/O栈](/images/Linux/io-1.png)
+![I/O栈](https://qiao1994.github.io/images/Linux/io-1.png)
 
 
 ## 性能指标
@@ -41,12 +41,12 @@
 
 ## 工具字典
 
-![根据指标找工具](/images/Linux/io-2.png)
+![根据指标找工具](https://qiao1994.github.io/images/Linux/io-2.png)
 
-![根据工具查指标](/images/Linux/io-3.png)
+![根据工具查指标](https://qiao1994.github.io/images/Linux/io-3.png)
 
 
 
 ## 分析思路
 
-![分析思路](/images/Linux/io-4.png)
+![分析思路](https://qiao1994.github.io/images/Linux/io-4.png)
