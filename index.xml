@@ -34,46 +34,46 @@
     <guid>https://qiao1994.github.io/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</guid>
     <description><![CDATA[疫情导致哪都去不了，所以婚假也只能学学习啦 背包问题 类型 维度 物品/容量遍历顺序(内外) 原因 容量遍历顺序(左右) 原因 01 二维 任意 内层左到右 01 一维 外]]></description>
 </item><item>
-    <title>Hadoop生态</title>
-    <link>https://qiao1994.github.io/hadoop%E7%94%9F%E6%80%81/</link>
+    <title>Zookeeper</title>
+    <link>https://qiao1994.github.io/zookeeper/</link>
+    <pubDate>Wed, 01 Apr 2020 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/zookeeper/</guid>
+    <description><![CDATA[ZooKeeper是一个分布式协调服务 ，通过 ZAB 算法实现数据一致性，并为各种大数据系统提供主服务器选举服务。虽然 ZooKeeper 并没有什么特别强大的功能，但]]></description>
+</item><item>
+    <title>大数据概念总结</title>
+    <link>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Wed, 01 Apr 2020 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[存储： HDFS HBase 计算： MapReduce Hive Spark Spark SQL 流式：Storm、Spark Streaming、Flink 资源管理： Yarn]]></description>
+</item><item>
+    <title>流式计算：Storm、Flink、Spark Streaming</title>
+    <link>https://qiao1994.github.io/%E6%B5%81%E5%BC%8F%E8%AE%A1%E7%AE%97stormflinkspark-streaming/</link>
+    <pubDate>Wed, 01 Apr 2020 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E6%B5%81%E5%BC%8F%E8%AE%A1%E7%AE%97stormflinkspark-streaming/</guid>
+    <description><![CDATA[Storm 有storm之前，如果要做流式计算，需要按照如下方式： 有了 Storm 后，开发者无需再关注数据的流转、消息的处理和消费，只要编程开发好数据处理的逻辑]]></description>
+</item><item>
+    <title>Hbase</title>
+    <link>https://qiao1994.github.io/hbase/</link>
+    <pubDate>Wed, 25 Mar 2020 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/hbase/</guid>
+    <description><![CDATA[HBase 作为 Google BigTable 的开源实现，完整地继承了 BigTable 的优良设计。架构上通过数据分片的设计配合 HDFS，实现了数据的分布式海量存储；数据结构上通过列族的设计，]]></description>
+</item><item>
+    <title>Spark</title>
+    <link>https://qiao1994.github.io/spark/</link>
+    <pubDate>Fri, 20 Mar 2020 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/spark/</guid>
+    <description><![CDATA[Spark是比MapReduce更快、更易用的大数据计算框架 比MapReduce更易用 Spark可以理解成是面向对象的大数据计算。 MapReduce 针对输入]]></description>
+</item><item>
+    <title>Hadoop</title>
+    <link>https://qiao1994.github.io/hadoop/</link>
     <pubDate>Wed, 18 Mar 2020 22:20:20 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://qiao1994.github.io/hadoop%E7%94%9F%E6%80%81/</guid>
+    <guid>https://qiao1994.github.io/hadoop/</guid>
     <description><![CDATA[Hadoop 主要是由三部分组成，分布式文件系统 HDFS、分布式计算框架 MapReduce与分布式集群资源调度框架 Yarn RAID与HDFS：单机/分布式文件]]></description>
-</item><item>
-    <title>《佛系：如何成为一个快乐的人》读书笔记</title>
-    <link>https://qiao1994.github.io/%E4%BD%9B%E7%B3%BB%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-    <pubDate>Mon, 12 Aug 2019 22:20:20 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/%E4%BD%9B%E7%B3%BB%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[第一章：佛系烦恼 &mdash;- 反应之前先理解 心烦意乱的真正原因是没有清楚的意识到烦恼的存在，理解烦恼的存在，是解决烦恼的第一步。 烦恼从哪来？ 烦恼的原因是]]></description>
-</item><item>
-    <title>Redis抱佛脚</title>
-    <link>https://qiao1994.github.io/redis%E6%8A%B1%E4%BD%9B%E8%84%9A/</link>
-    <pubDate>Tue, 23 Jul 2019 23:28:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/redis%E6%8A%B1%E4%BD%9B%E8%84%9A/</guid>
-    <description><![CDATA[特点 性能、并发 问题 需要使用物理内存，不支持海量数据 缓存何数据库双写一致性问题 要求强一致性的问题不用缓存 缓存穿透 互斥锁 异步更新 拦截 缓存雪崩 预热]]></description>
-</item><item>
-    <title>Web安全备忘</title>
-    <link>https://qiao1994.github.io/web%E5%AE%89%E5%85%A8%E7%AC%94%E8%AE%B0/</link>
-    <pubDate>Sat, 20 Jul 2019 23:26:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/web%E5%AE%89%E5%85%A8%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[SQL注入 永远不要使用超级用户或所有者帐号去连接数据库，要用权限被严格限制的帐号 检查输入的数据是否具有所期望的数据格式 is_numeric() 、 ctype_dig]]></description>
-</item><item>
-    <title>计算机网络学习笔记</title>
-    <link>https://qiao1994.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-    <pubDate>Sat, 20 Jul 2019 20:37:37 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[TCP/IP协议族 应用层(HTTP/FTP) 传输层(TCP/UDP) 网络层(IP) 网络接口层(把0、1序列划分为数据帧从一个节点传输到临近的]]></description>
-</item><item>
-    <title>Nginx学习笔记</title>
-    <link>https://qiao1994.github.io/nginx/</link>
-    <pubDate>Sat, 20 Jul 2019 13:46:20 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/nginx/</guid>
-    <description><![CDATA[基本组成 nginx由内核和模块组成,模块分为handler、filter、proxy类模块 进程模型 nginx默认是多进程方式，一个maste]]></description>
 </item></channel>
 </rss>

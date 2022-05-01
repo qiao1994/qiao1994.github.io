@@ -102,34 +102,34 @@
         alt="/avatar.png"
         title="/avatar.png" /></a></div><h1 class="home-title">满地可的笔记本</h1><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/15-order-by%E7%9A%84%E6%89%A7%E8%A1%8C%E9%80%BB%E8%BE%91/">15.order by的执行逻辑</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-31">2019-05-31</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">全字段排序 分析这个sql语句的执行逻辑 select city,name,age from t where city='杭州' order by name limit 1000; 初始化sort_buffer(一段专门用于排序的内存)，确定放入</div><div class="post-footer">
+        <a href="/15-order-by%E7%9A%84%E6%89%A7%E8%A1%8C%E9%80%BB%E8%BE%91/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/14-count%E6%98%AF%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E7%9A%84/">14.count是如何执行的</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-30">2019-05-30</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">count(*)的实现方式 MyISAM引擎把一个表的总行数存在了磁盘上，因此执行count(*)的时候会直接返回这个数，效率很高； 而Inno</div><div class="post-footer">
+        <a href="/14-count%E6%98%AF%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E7%9A%84/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/13-%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91%E6%95%B0%E6%8D%AE%E8%A1%A8%E7%9A%84%E7%A3%81%E7%9B%98%E5%8D%A0%E7%94%A8/">13.如何减少MySQL表的磁盘占用</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-30">2019-05-30</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">参数innodb_file_per_table OFF：表的数据放在系统共享表空间，也就是跟数据字典放在一起 ON：每个InnoDB表数据存储在</div><div class="post-footer">
+        <a href="/13-%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91%E6%95%B0%E6%8D%AE%E8%A1%A8%E7%9A%84%E7%A3%81%E7%9B%98%E5%8D%A0%E7%94%A8/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/12-mysql%E6%8A%96%E5%8A%A8/">12.MySQL抖动</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-26">2019-05-26</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">刷脏页 和磁盘不一致的内存页成为脏页，大多数更新操作MySQL都是修改内存和写入redo log，但是在某些情况下，需要把脏页写入磁盘，称之为&</div><div class="post-footer">
+        <a href="/12-mysql%E6%8A%96%E5%8A%A8/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/11-%E6%80%8E%E4%B9%88%E7%BB%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E6%AE%B5%E5%8A%A0%E7%B4%A2%E5%BC%95/">11.怎么给字符串加索引</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-26">2019-05-26</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">直接创建完整索引，这样可能比较占用空间； 创建前缀索引，节省空间，但会增加查询扫描次数，并且不能使用覆盖索引； 前缀索引会损失区分度，所以需要确</div><div class="post-footer">
+        <a href="/11-%E6%80%8E%E4%B9%88%E7%BB%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E6%AE%B5%E5%8A%A0%E7%B4%A2%E5%BC%95/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/10-%E4%B8%BA%E4%BB%80%E4%B9%88mysql%E4%BC%9A%E9%80%89%E9%94%99%E7%B4%A2%E5%BC%95/">10.为什么MySQL会选错索引</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-25">2019-05-25</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">MySQL是如何选择索引的 根据扫描行数、是否使用临时表、是否排序等因素综合判断 如何得到扫描行数 MySQL在真正开始执行语句之前，并不能精确地</div><div class="post-footer">
         <a href="/10-%E4%B8%BA%E4%BB%80%E4%B9%88mysql%E4%BC%9A%E9%80%89%E9%94%99%E7%B4%A2%E5%BC%95/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/9-%E6%99%AE%E9%80%9A%E7%B4%A2%E5%BC%95%E5%92%8C%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8C%BA%E5%88%AB/">9.普通索引和唯一索引的区别</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-25">2019-05-25</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">查询过程 对于普通索引来说，查找到满足条件的第一个记录(5,500)后，需要查找下一个记录，直到碰到第一个不满足k=5条件的记录。 对于唯一索引</div><div class="post-footer">
-        <a href="/9-%E6%99%AE%E9%80%9A%E7%B4%A2%E5%BC%95%E5%92%8C%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8C%BA%E5%88%AB/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/8-%E4%BA%8B%E5%8A%A1%E5%88%B0%E5%BA%95%E6%98%AF%E4%B8%8D%E6%98%AF%E9%9A%94%E7%A6%BB%E7%9A%84/">8.事务到底是不是隔离的</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-25">2019-05-25</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">两种&quot;视图&quot; view 用查询语句定义的虚拟表，在调用的时候执行查询语句并生成结果create view ... InnoDB在实现MVCC时用到</div><div class="post-footer">
-        <a href="/8-%E4%BA%8B%E5%8A%A1%E5%88%B0%E5%BA%95%E6%98%AF%E4%B8%8D%E6%98%AF%E9%9A%94%E7%A6%BB%E7%9A%84/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/6-7-%E5%85%A8%E5%B1%80%E9%94%81-%E8%A1%A8%E9%94%81-%E8%A1%8C%E9%94%81/">6&amp;7.全局锁、表锁、行锁</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-25">2019-05-25</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">全局锁 命令 Flush tables with read lock 阻塞语句 数据更新语句（数据的增删改） 数据定义语句（包括建表、修改表结构等） 更新类事务的提交语句 使用场景 做全库逻辑备份 不加</div><div class="post-footer">
-        <a href="/6-7-%E5%85%A8%E5%B1%80%E9%94%81-%E8%A1%A8%E9%94%81-%E8%A1%8C%E9%94%81/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/4-5-%E7%B4%A2%E5%BC%95/">4&amp;5.索引</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-25">2019-05-25</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">常见索引模型 哈希表 插入很快，只需要在对应位置插入值即可 O(1) 等值查询也很快O(1) 区间查询只能全表扫描 O(N) ， 因为索引是无序的 哈希表适合无需区间查询</div><div class="post-footer">
-        <a href="/4-5-%E7%B4%A2%E5%BC%95/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/3-%E4%BA%8B%E5%8A%A1%E9%9A%94%E7%A6%BB/">3.事务隔离</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-22">2019-05-22</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">事务隔离级别 读未提交：一个事务还没提交时，它做的变更就能被别的事务看到 读提交：一个事务提交之后，它做的变更才会被其他事务看到 可重复读：一个事</div><div class="post-footer">
-        <a href="/3-%E4%BA%8B%E5%8A%A1%E9%9A%94%E7%A6%BB/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
@@ -161,7 +161,7 @@
                     <span class="page-link" aria-hidden="true">&hellip;</span>
                 </li><li class="page-item ">
                     <span class="page-link">
-                        <a href="/page/26/">26</a>
+                        <a href="/page/27/">27</a>
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
