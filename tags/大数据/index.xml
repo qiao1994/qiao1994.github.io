@@ -3,20 +3,20 @@
         <title>大数据 - 标签 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link>
         <description>大数据 - 标签 - 满地可的笔记本</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 01 Apr 2020 22:20:20 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 01 Apr 2020 23:20:20 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="self" type="application/rss+xml" /><item>
+    <title>大数据概念总结</title>
+    <link>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Wed, 01 Apr 2020 23:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[存储： HDFS HBase 计算： MapReduce Hive Spark Spark SQL 流式：Storm、Spark Streaming、Flink 资源管理： Yarn]]></description>
+</item><item>
     <title>Zookeeper</title>
     <link>https://qiao1994.github.io/zookeeper/</link>
     <pubDate>Wed, 01 Apr 2020 22:20:20 &#43;0000</pubDate>
     <author>作者</author>
     <guid>https://qiao1994.github.io/zookeeper/</guid>
     <description><![CDATA[ZooKeeper是一个分布式协调服务 ，通过 ZAB 算法实现数据一致性，并为各种大数据系统提供主服务器选举服务。虽然 ZooKeeper 并没有什么特别强大的功能，但]]></description>
-</item><item>
-    <title>大数据概念总结</title>
-    <link>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</link>
-    <pubDate>Wed, 01 Apr 2020 22:20:20 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</guid>
-    <description><![CDATA[存储： HDFS HBase 计算： MapReduce Hive Spark Spark SQL 流式：Storm、Spark Streaming、Flink 资源管理： Yarn]]></description>
 </item><item>
     <title>流式计算：Storm、Flink、Spark Streaming</title>
     <link>https://qiao1994.github.io/%E6%B5%81%E5%BC%8F%E8%AE%A1%E7%AE%97stormflinkspark-streaming/</link>
