@@ -3,7 +3,14 @@
         <title>MySQL - 标签 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/tags/mysql/</link>
         <description>MySQL - 标签 - 满地可的笔记本</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 14 Jul 2019 13:30:30 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/mysql/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 02 May 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/mysql/" rel="self" type="application/rss+xml" /><item>
+    <title>如何确保MySQL与Redis数据的一致性</title>
+    <link>https://qiao1994.github.io/%E5%A6%82%E4%BD%95%E7%A1%AE%E4%BF%9Dmysql%E4%B8%8Eredis%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7/</link>
+    <pubDate>Mon, 02 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E5%A6%82%E4%BD%95%E7%A1%AE%E4%BF%9Dmysql%E4%B8%8Eredis%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7/</guid>
+    <description><![CDATA[系统架构 一般情况下，Redis都是作为client与MySQL间的一层缓存，尽量减少MySQL的读压力，数据流向如图所示： 1 2 3 4 5 6 7 graph TD;]]></description>
+</item><item>
     <title>MySQL join操作备忘</title>
     <link>https://qiao1994.github.io/mysql_join%E5%A4%87%E5%BF%98/</link>
     <pubDate>Sun, 14 Jul 2019 13:30:30 &#43;0000</pubDate>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://qiao1994.github.io/37-%E5%95%A5%E6%97%B6%E5%80%99%E4%BD%BF%E7%94%A8%E5%86%85%E9%83%A8%E4%B8%B4%E6%97%B6%E8%A1%A8/</guid>
     <description><![CDATA[什么时候会使用内部临时表？ 实例 union 合并后判断唯一；union all则不需要 group by 排序和计数时；如果有索引，则不需要用到临时表 理论 如果语句执行过程]]></description>
-</item><item>
-    <title>36.临时表</title>
-    <link>https://qiao1994.github.io/36-%E4%B8%B4%E6%97%B6%E8%A1%A8/</link>
-    <pubDate>Sun, 02 Jun 2019 10:35:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/36-%E4%B8%B4%E6%97%B6%E8%A1%A8/</guid>
-    <description><![CDATA[临时表 创建语句reate temporary table temp_t(id int primary key)engine=innodb; 由session创建，且只能被创建的session访问到，可以和普通表同名（优先访问临时表），当sess]]></description>
 </item></channel>
 </rss>

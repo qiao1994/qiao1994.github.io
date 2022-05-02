@@ -102,6 +102,11 @@
         alt="/avatar.png"
         title="/avatar.png" /></a></div><h1 class="home-title">满地可的笔记本</h1><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/32-%E6%9C%89%E4%BA%9B%E8%BF%9B%E7%A8%8B%E6%9D%80%E4%B8%8D%E6%8E%89/">32.有些进程杀不掉</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">kill 当用户执行kill query thread_id_B时，MySQL里处理kill命令的线程做了两件事： 把session B的运行状态改成THD::KI</div><div class="post-footer">
+        <a href="/32-%E6%9C%89%E4%BA%9B%E8%BF%9B%E7%A8%8B%E6%9D%80%E4%B8%8D%E6%8E%89/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/31-%E5%88%A0%E5%BA%93%E4%B8%8D%E8%B7%91%E8%B7%AF/">31.删库不跑路</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">误删行 Flashback 是修改binlog的内容，拿回原库重放 预防方式 把sql_safe_updates参数设置为on。这样一来，如果我们忘记在delete</div><div class="post-footer">
         <a href="/31-%E5%88%A0%E5%BA%93%E4%B8%8D%E8%B7%91%E8%B7%AF/">阅读全文</a><div class="post-tags">
@@ -125,11 +130,6 @@
         <a href="/28-%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB%E7%9A%84%E5%9D%91/">28.读写分离的坑</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">在从库上会读到系统的一个过期状态，称为过期读。 过期读的解决方案 强制走主库方案 必须拿到最新结果的方案，强制请求主库；非必须最新结果的方案，请求</div><div class="post-footer">
         <a href="/28-%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB%E7%9A%84%E5%9D%91/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/27-%E4%B8%BB%E5%BA%93%E6%8C%82%E4%BA%86%E4%BB%8E%E5%BA%93%E5%92%8B%E5%8A%9E/">27.主库挂了从库咋办</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">基于位点的主备切换 A是主库，A&rsquo;是备库；B、C、D是从库；当主库要从A切换为A&rsquo;时，BCD需要知道应该继续从A&rs</div><div class="post-footer">
-        <a href="/27-%E4%B8%BB%E5%BA%93%E6%8C%82%E4%BA%86%E4%BB%8E%E5%BA%93%E5%92%8B%E5%8A%9E/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
