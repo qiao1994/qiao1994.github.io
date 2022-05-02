@@ -3,9 +3,16 @@
         <title>满地可的笔记本</title>
         <link>https://qiao1994.github.io/</link>
         <description>满地可的笔记本</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 26 Apr 2022 21:08:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 02 May 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://qiao1994.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Leetcode:870. 优势洗牌(田忌赛马)</title>
+    <link>https://qiao1994.github.io/870/</link>
+    <pubDate>Mon, 02 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/870/</guid>
+    <description><![CDATA[题目链接：https://leetcode-cn.com/problems/advantage-shuffle/ 初步思路 对nums1排序，对]]></description>
+</item><item>
     <title>系统设计总结</title>
     <link>https://qiao1994.github.io/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93/</link>
     <pubDate>Tue, 26 Apr 2022 21:08:00 &#43;0000</pubDate>
@@ -68,12 +75,5 @@
     <author>作者</author>
     <guid>https://qiao1994.github.io/hbase/</guid>
     <description><![CDATA[HBase 作为 Google BigTable 的开源实现，完整地继承了 BigTable 的优良设计。架构上通过数据分片的设计配合 HDFS，实现了数据的分布式海量存储；数据结构上通过列族的设计，]]></description>
-</item><item>
-    <title>Spark</title>
-    <link>https://qiao1994.github.io/spark/</link>
-    <pubDate>Fri, 20 Mar 2020 22:20:20 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/spark/</guid>
-    <description><![CDATA[Spark是比MapReduce更快、更易用的大数据计算框架 比MapReduce更易用 Spark可以理解成是面向对象的大数据计算。 MapReduce 针对输入]]></description>
 </item></channel>
 </rss>
