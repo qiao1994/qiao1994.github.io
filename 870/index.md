@@ -9,8 +9,6 @@
 
 但是这种方法的时间复杂度是O(N^2)，果然超时
 
-![image-20220502195150590](https://qiao1994.github.io/images/Leetcode/image-20220502195150590.png)
-
 ```go
 func advantageCount(nums1 []int, nums2 []int) []int {
     result := make([]int, len(nums1))
