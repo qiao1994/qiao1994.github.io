@@ -264,6 +264,9 @@ func main() {
 ```
 
 ## string
+
+容易忘的：`strings.Split(str, "")` `strconv.Atoi()` `strconv.Itoa`
+
 ```
 package main
 import "fmt"
@@ -284,7 +287,7 @@ func main() {
     fmt.Println("strRune[0]:", strRune[0])
     // = string求长度
     fmt.Println("strings.Count()-1:", strings.Count(str, "")-1)
-    // = string切割
+    // = string切割 切割后得到[]string类型的数据，可直接遍历使用
     fmt.Println("strings.Split", strings.Split(str, ""))
     // = string截取
     fmt.Println("str[:]", str[6:])

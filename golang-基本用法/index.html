@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/qiao1994.github.io\/golang-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95\/"
-        },"image": ["https:\/\/qiao1994.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Golang","wordcount":  2329 ,
+        },"image": ["https:\/\/qiao1994.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Golang","wordcount":  2381 ,
         "url": "https:\/\/qiao1994.github.io\/golang-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95\/","datePublished": "2019-03-21T21:30:00+00:00","dateModified": "2019-03-21T21:30:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "qiaomaoshuang","logo": "https:\/\/qiao1994.github.io\/avatar.png"},"author": {
@@ -106,7 +106,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Golang基本用法</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/2019%E6%98%A5%E8%8A%82%E5%A4%A7%E7%A4%BC%E5%8C%85/"><i class="far fa-folder fa-fw"></i>2019春节大礼包</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2019-03-21">2019-03-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 2329 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2019-03-21">2019-03-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 2381 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 5 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -643,6 +643,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="string">string</h2>
+<p>容易忘的：<code>strings.Split(str, &quot;&quot;)</code> <code>strconv.Atoi()</code> <code>strconv.Itoa</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -696,7 +697,7 @@
 </span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;strRune[0]:&#34;</span><span class="p">,</span> <span class="nx">strRune</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// = string求长度
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;strings.Count()-1:&#34;</span><span class="p">,</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Count</span><span class="p">(</span><span class="nx">str</span><span class="p">,</span> <span class="s">&#34;&#34;</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// = string切割
+</span></span><span class="line"><span class="cl">    <span class="c1">// = string切割 切割后得到[]string类型的数据，可直接遍历使用
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;strings.Split&#34;</span><span class="p">,</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Split</span><span class="p">(</span><span class="nx">str</span><span class="p">,</span> <span class="s">&#34;&#34;</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// = string截取
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;str[:]&#34;</span><span class="p">,</span> <span class="nx">str</span><span class="p">[</span><span class="mi">6</span><span class="p">:])</span>

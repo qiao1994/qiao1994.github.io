@@ -81,3 +81,5 @@ func advantageCount(nums1 []int, nums2 []int) []int {
     return result
 }
 ```
+
+参考：https://leetcode-cn.com/problems/advantage-shuffle/solution/golangtan-xin-tian-ji-sai-ma-by-mythicmy-11gk/
