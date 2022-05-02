@@ -1,4 +1,4 @@
-# Leetcode:870. 优势洗牌(田忌赛马)
+# Leetcode:870. 优势洗牌(田忌赛马)-贪心+双指针
 
 
 题目链接：https://leetcode-cn.com/problems/advantage-shuffle/
