@@ -34,6 +34,13 @@
     <guid>https://qiao1994.github.io/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93/</guid>
     <description><![CDATA[疫情导致哪都去不了，所以婚假也只能学学习啦 背包问题 类型 维度 物品/容量遍历顺序(内外) 原因 容量遍历顺序(左右) 原因 01 二维 任意 内层左到右 01 一维 外]]></description>
 </item><item>
+    <title>程序员的个人财富课：个人发展篇学习笔记</title>
+    <link>https://qiao1994.github.io/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8F%91%E5%B1%95/</link>
+    <pubDate>Thu, 12 Aug 2021 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8F%91%E5%B1%95/</guid>
+    <description><![CDATA[职业方向 从长期来看，一个好的职业方向是什么样的？ 对于一个人的职场发展来说，有三件事同样重要，缺一不可，那就是“选择”、“坚持”和“努力”。所]]></description>
+</item><item>
     <title>大数据概念总结</title>
     <link>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</link>
     <pubDate>Fri, 03 Apr 2020 23:20:20 &#43;0000</pubDate>
@@ -68,12 +75,5 @@
     <author>作者</author>
     <guid>https://qiao1994.github.io/spark/</guid>
     <description><![CDATA[Spark是比MapReduce更快、更易用的大数据计算框架 比MapReduce更易用 Spark可以理解成是面向对象的大数据计算。 MapReduce 针对输入]]></description>
-</item><item>
-    <title>Hadoop</title>
-    <link>https://qiao1994.github.io/hadoop/</link>
-    <pubDate>Wed, 18 Mar 2020 22:20:20 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/hadoop/</guid>
-    <description><![CDATA[Hadoop 主要是由三部分组成，分布式文件系统 HDFS、分布式计算框架 MapReduce与分布式集群资源调度框架 Yarn RAID与HDFS：单机/分布式文件]]></description>
 </item></channel>
 </rss>

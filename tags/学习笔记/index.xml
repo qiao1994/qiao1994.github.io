@@ -3,7 +3,14 @@
         <title>学习笔记 - 标签 - 满地可的笔记本</title>
         <link>https://qiao1994.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
         <description>学习笔记 - 标签 - 满地可的笔记本</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 03 Apr 2020 23:20:20 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 12 Aug 2021 22:20:20 &#43;0000</lastBuildDate><atom:link href="https://qiao1994.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>程序员的个人财富课：个人发展篇学习笔记</title>
+    <link>https://qiao1994.github.io/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8F%91%E5%B1%95/</link>
+    <pubDate>Thu, 12 Aug 2021 22:20:20 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8F%91%E5%B1%95/</guid>
+    <description><![CDATA[职业方向 从长期来看，一个好的职业方向是什么样的？ 对于一个人的职场发展来说，有三件事同样重要，缺一不可，那就是“选择”、“坚持”和“努力”。所]]></description>
+</item><item>
     <title>大数据概念总结</title>
     <link>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</link>
     <pubDate>Fri, 03 Apr 2020 23:20:20 &#43;0000</pubDate>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://qiao1994.github.io/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3yii2.0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
     <description><![CDATA[《深入理解Yii2.0》 今天是周日 花了一个上午+半个下午的时间看完了这本“书”，链接：http://www.digpage.com/inde]]></description>
-</item><item>
-    <title>4.网络性能分析</title>
-    <link>https://qiao1994.github.io/4-%E7%BD%91%E7%BB%9C/</link>
-    <pubDate>Sat, 22 Jun 2019 20:52:31 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/4-%E7%BD%91%E7%BB%9C/</guid>
-    <description><![CDATA[网络协议栈 性能指标 带宽 吞吐量 延时 PPS 各层性能 转发性能 TCP/UDP性能 HTTP性能 应用负载性能 工具字典]]></description>
 </item></channel>
 </rss>
