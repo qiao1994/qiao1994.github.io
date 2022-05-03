@@ -108,33 +108,5 @@ flowchart TB
 	end
 ```
 
-
-
-{{< mermaid >}}
-flowchart TB
-	kubectl-->APIServer
-	subgraph Master
-		APIServer-->ControllerManager
-		APIServer-->Scheduler
-		APIServer-->etcd
-	end
-	Kublet+KubeProxy-->APIServer
-	subgraph Node
-		Kublet+KubeProxy
-		Kublet+KubeProxy-->Pod1
-		Kublet+KubeProxy-->Pod2
-		Kublet+KubeProxy-->Pod3
-		Kublet+KubeProxy-->Pod...
-		subgraph Pod1
-			container1
-			container2
-			...
-			containerN
-		end
-		subgraph Service
-			Pod2
-			Pod3
-		end
-	end
-{{< /mermaid >}}
+![image-20220503201005828](https://qiao1994.github.io/images/other/image-20220503201005828.png)
 
