@@ -18,7 +18,7 @@
     <pubDate>Mon, 02 May 2022 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>https://qiao1994.github.io/%E5%A6%82%E4%BD%95%E7%A1%AE%E4%BF%9Dmysql%E4%B8%8Eredis%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7/</guid>
-    <description><![CDATA[系统架构 一般情况下，Redis都是作为client与MySQL间的一层缓存，尽量减少MySQL的读压力，数据流向如图所示： 1 2 3 4 5 6 7 graph TD;]]></description>
+    <description><![CDATA[系统架构 一般情况下，Redis都是作为Client与MySQL间的一层缓存，以减少MySQL的读压力，数据流向如图所示： 1 2 3 4 5 6 7 graph TD; C]]></description>
 </item><item>
     <title>系统设计总结</title>
     <link>https://qiao1994.github.io/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93/</link>
