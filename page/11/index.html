@@ -102,11 +102,6 @@
         alt="/avatar.png"
         title="/avatar.png" /></a></div><h1 class="home-title">满地可的笔记本</h1><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/19-%E4%B8%80%E8%A1%8C%E6%9F%A5%E8%AF%A2%E4%B9%9F%E5%BE%88%E6%85%A2%E7%9A%84%E5%8F%AF%E8%83%BD%E5%8E%9F%E5%9B%A0/">19.一行查询也很慢的可能原因</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">第一类：查询长时间不返回 select * from t where id=1; 等MDL锁 有一个线程正在表t上请求或者持有MDL写锁，把select语句堵住了 等flush 有一个线程正要</div><div class="post-footer">
-        <a href="/19-%E4%B8%80%E8%A1%8C%E6%9F%A5%E8%AF%A2%E4%B9%9F%E5%BE%88%E6%85%A2%E7%9A%84%E5%8F%AF%E8%83%BD%E5%8E%9F%E5%9B%A0/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/18-%E5%AF%B9%E7%B4%A2%E5%BC%95%E5%AD%97%E6%AE%B5%E5%81%9A%E5%87%BD%E6%95%B0%E6%93%8D%E4%BD%9C%E7%9A%84%E5%9D%91/">18.对索引字段做函数操作的坑</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">当MySQL认为需要对索引字段做一点事后才能匹配时，索引会不幸的失去排序能力。 案例一：条件字段函数操作 select count(*) from tradelog where month(t_modified)=7; 这条sql语句会扫描全索引</div><div class="post-footer">
         <a href="/18-%E5%AF%B9%E7%B4%A2%E5%BC%95%E5%AD%97%E6%AE%B5%E5%81%9A%E5%87%BD%E6%95%B0%E6%93%8D%E4%BD%9C%E7%9A%84%E5%9D%91/">阅读全文</a><div class="post-tags">
@@ -130,6 +125,11 @@
         <a href="/14-count%E6%98%AF%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E7%9A%84/">14.count是如何执行的</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-30">2019-05-30</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">count(*)的实现方式 MyISAM引擎把一个表的总行数存在了磁盘上，因此执行count(*)的时候会直接返回这个数，效率很高； 而Inno</div><div class="post-footer">
         <a href="/14-count%E6%98%AF%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E7%9A%84/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/13-%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91%E6%95%B0%E6%8D%AE%E8%A1%A8%E7%9A%84%E7%A3%81%E7%9B%98%E5%8D%A0%E7%94%A8/">13.如何减少MySQL表的磁盘占用</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-05-30">2019-05-30</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">参数innodb_file_per_table OFF：表的数据放在系统共享表空间，也就是跟数据字典放在一起 ON：每个InnoDB表数据存储在</div><div class="post-footer">
+        <a href="/13-%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91%E6%95%B0%E6%8D%AE%E8%A1%A8%E7%9A%84%E7%A3%81%E7%9B%98%E5%8D%A0%E7%94%A8/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
