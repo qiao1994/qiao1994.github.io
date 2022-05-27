@@ -102,6 +102,16 @@
         alt="/avatar.png"
         title="/avatar.png" /></a></div><h1 class="home-title">满地可的笔记本</h1><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/40-insert%E7%9A%84%E9%94%81/">40.insert的锁</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-02">2019-06-02</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">insert … select 是很常见的在两个表之间拷贝数据的方法。在可重复读隔离级别下，这个语句会给select的表里扫描到的记录和间隙加读锁。 而如果insert</div><div class="post-footer">
+        <a href="/40-insert%E7%9A%84%E9%94%81/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/38-%E5%86%85%E5%AD%98%E8%A1%A8/">38.内存表</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-02">2019-06-02</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">内存表 不适合用作普通表 重启会丢数据，如果一个备库重启，会导致主备同步线程停止；如果主库跟这个备库是双M架构，还可能导致主库的内存表数据被删掉</div><div class="post-footer">
+        <a href="/38-%E5%86%85%E5%AD%98%E8%A1%A8/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/39-%E8%87%AA%E5%A2%9E%E4%B8%BB%E9%94%AE%E4%B8%BA%E5%95%A5%E4%B8%8D%E6%98%AF%E8%BF%9E%E7%BB%AD%E7%9A%84/">39.自增主键为啥不是连续的</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-02">2019-06-02</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">为什么自增主键不一定是连续的 在MyISAM引擎里面，自增值是被写在数据文件上的 在InnoDB中，自增值是被记录在内存的，所以每次重启后，都会</div><div class="post-footer">
         <a href="/39-%E8%87%AA%E5%A2%9E%E4%B8%BB%E9%94%AE%E4%B8%BA%E5%95%A5%E4%B8%8D%E6%98%AF%E8%BF%9E%E7%BB%AD%E7%9A%84/">阅读全文</a><div class="post-tags">
@@ -120,16 +130,6 @@
         <a href="/35-join%E7%9A%84%E4%BC%98%E5%8C%96/">35.join的优化</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">Multi-Range Read优化 MRR 拿到一批主键后再去查询(回表或者join)，可以利用顺序访问速度较快的特性，提升查询速度。 Batched Key Access BKA 这个算法利用MRR，可以对</div><div class="post-footer">
         <a href="/35-join%E7%9A%84%E4%BC%98%E5%8C%96/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/34-join%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E7%94%A8/">34.join到底能不能用</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">Index Nested-Loop Join 如果驱动表和被驱动表都能使用索引，那么会采用这个算法； Simple Nested-Loop Join 当有表不能使用索引时，MySQL会把两个表都读入内存，然后执行扫描。 Block Nested-Loop Join</div><div class="post-footer">
-        <a href="/34-join%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E7%94%A8/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/33-mysql%E6%9F%A5%E8%AF%A2%E6%97%B6%E5%AF%B9%E5%86%85%E5%AD%98%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F/">33.MySQL查询时对内存的使用方式</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>qiaomaoshuang</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-06-01">2019-06-01</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>MySQL学习笔记</a></span></div><div class="content">全表扫描对server层的影响 MySQL是“边读边发的” 全表扫描对innodb的影响 innodb的Buffer Pool中是使用改进过的LRU</div><div class="post-footer">
-        <a href="/33-mysql%E6%9F%A5%E8%AF%A2%E6%97%B6%E5%AF%B9%E5%86%85%E5%AD%98%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/mysql/">MySQL</a>,&nbsp;<a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
