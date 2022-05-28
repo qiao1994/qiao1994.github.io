@@ -3,9 +3,16 @@
         <title>满地可的笔记本</title>
         <link>https://qiao1994.github.io/</link>
         <description>满地可的笔记本</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 03 May 2022 18:06:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 27 May 2022 20:52:00 &#43;0000</lastBuildDate>
             <atom:link href="https://qiao1994.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Yii2的内存泄漏问题</title>
+    <link>https://qiao1994.github.io/yii2%E7%9A%84%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E9%97%AE%E9%A2%98/</link>
+    <pubDate>Fri, 27 May 2022 20:52:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://qiao1994.github.io/yii2%E7%9A%84%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E9%97%AE%E9%A2%98/</guid>
+    <description><![CDATA[背景 有一段用Yii2的command导入大量数据的脚本，内存会一直上涨。（好的，我知道这个场景不应该用PHP，当时并不知道这东西能走多远，所]]></description>
+</item><item>
     <title>Docker与K8S学习笔记</title>
     <link>https://qiao1994.github.io/docker%E4%B8%8Ek8s/</link>
     <pubDate>Tue, 03 May 2022 18:06:00 &#43;0000</pubDate>
@@ -68,12 +75,5 @@
     <author>作者</author>
     <guid>https://qiao1994.github.io/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8F%91%E5%B1%95/</guid>
     <description><![CDATA[职业方向 从长期来看，一个好的职业方向是什么样的？ 对于一个人的职场发展来说，有三件事同样重要，缺一不可，那就是“选择”、“坚持”和“努力”。所]]></description>
-</item><item>
-    <title>大数据概念总结</title>
-    <link>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</link>
-    <pubDate>Fri, 03 Apr 2020 23:20:20 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://qiao1994.github.io/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93/</guid>
-    <description><![CDATA[存储： HDFS HBase 计算： MapReduce Hive Spark Spark SQL 流式：Storm、Spark Streaming、Flink 资源管理： Yarn]]></description>
 </item></channel>
 </rss>
